@@ -1,0 +1,25 @@
+{
+  "name": "unit-test-social-api",
+  "version": "1.0.0",
+  "description": "This is acadgild assignment to test social apis ",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha app.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nidhi16/NodeJs_Session20_Assignment2.git"
+  },
+  "author": "Nidhi Sinha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nidhi16/NodeJs_Session20_Assignment2/issues"
+  },
+  "homepage": "https://github.com/Nidhi16/NodeJs_Session20_Assignment2#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^4.0.1",
+    "randomstring": "^1.1.5",
+    "twitter": "^1.7.1"
+  }
+}
